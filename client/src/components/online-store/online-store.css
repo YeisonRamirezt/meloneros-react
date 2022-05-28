@@ -1,0 +1,197 @@
+/* nav.js */
+.nav {
+  border-radius: 5px;
+  width: 90%;
+  margin: 5px 5%;
+  display: block;
+  padding: 10px 10px 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  top: 0px;
+  background: white;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.icon-money {
+  float: left;
+  font-size: 20px;
+  position: relative;
+  left: 0px;
+  top: 2px;
+  margin-right: 15px;
+}
+.nav span {
+  font-size: 15px;
+  font-weight: 400;
+}
+#cart-icon-toggle {
+  z-index: 100;
+  width: 50px;
+  float: right;
+  position: relative;
+  right: 0px;
+  background: #eee;
+  border-radius: 5px;
+  padding: 5px;
+}
+#quantity_oncart {
+  font-size: 13px;
+  font-weight: bold;
+  color: #f65f68;
+  position: relative;
+  top: -7px;
+  right: 2px;
+  float: left;
+  z-index: 1000;
+  text-align: center;
+}
+#cart-icon-id {
+  color: #f65f68;
+  font-size: 24px;
+  float: left;
+}
+/* ------------------------------------------------------------------- */
+
+/* business.js */
+.head_info {
+  margin: 30px 0px;
+}
+.head_info h1 {
+  font-size: 18px;
+  padding-top: 50px;
+}
+.head_info h2 {
+  font-size: 16px;
+}
+.head_info h2 {
+  font-size: 14px;
+}
+.head_info div {
+  clear: both;
+}
+.business_image {
+  height: 130px;
+  width: 130px;
+  float: left;
+  margin: 20px 30px 20px 20px;
+}
+.business_image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-attachment: relative;
+  background-position: center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* ------------------------------------------------------------------- */
+/* categories.js */
+#categories {
+  padding: 10px;
+  display: flex;
+  overflow-x: auto;
+}
+.cat-design {
+  margin-right: 10px;
+  padding: 10px;
+  float: left;
+  background: #ccc;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  box-shadow: 3px 3px 3px #ddd;
+}
+#producto-bg {
+  background: url("") no-repeat center top;
+  background-attachment: relative;
+  background-position: center center;
+  /* ------------ */
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  /* ------------ */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* ------------  */
+  height: 120px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  float: left;
+}
+.selected-category {
+  background: rgb(246, 95, 104);
+  color: white;
+}
+/* ------------------------------------------------------------------- */
+/* products.js */
+.products {
+  display: flex;
+  overflow-x: auto;
+  padding: 0px;
+}
+.content-panel-wrapper {
+  float: left;
+  margin-left: 10px;
+}
+.content-panel-wrapper:last-child {
+  margin-right: 10px;
+}
+.content-panel {
+  width: 200px;
+  border: solid 1px #eee;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 6px 7px 15px #ddd;
+}
+.content-panel:hover {
+  font-weight: bold;
+}
+.producto-title {
+  font-size: 14px;
+  width: 80%;
+  float: left;
+  font-weight: 400;
+  color: #373737;
+  min-height: 100px;
+  min-height: 100px;
+  padding: 10px 20px;
+}
+.producto-price {
+  font-size: 12px;
+  color: #666;
+  margin-left: 20px;
+  font-weight: bold;
+}
+#producto-bg img {
+  background-attachment: relative;
+  background-position: center center;
+  /* ------------ */
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  /* ------------ */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* ------------  */
+  height: 120px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  float: left;
+}
+/* ------------------------------------------------------------------- */
